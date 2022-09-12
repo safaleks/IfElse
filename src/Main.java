@@ -7,10 +7,10 @@ public class Main {
         int stepBonus = 100;
 
         if (replenishment > minSumForBonus) {
-            System.out.println("Текущий баланс - "+(startBalance+replenishment+replenishment/stepBonus) + " рублей");
-            System.out.println("Бонусные рубли - "+(replenishment/stepBonus));
+            System.out.println("Текущий баланс - " + (startBalance + replenishment + replenishment / stepBonus) + " рублей");
+            System.out.println("Бонусные рубли - " + (replenishment / stepBonus));
         } else {
-            System.out.println("Текущий баланс - "+(startBalance+replenishment) + " рублей");
+            System.out.println("Текущий баланс - " + (startBalance + replenishment) + " рублей");
             System.out.println("Бонусные рубли - 0");
         }
     }
